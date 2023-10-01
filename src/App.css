@@ -1,0 +1,191 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  background-color: #090909;
+  color: #e0eadd;
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.App {
+  height: 100%;
+}
+
+@keyframes background-pan {
+  from {background-position: 0% center;}
+  to {background-position: -200% center;}
+}
+
+h1 {
+  position: absolute;
+  width: min-content;
+  height: min-content;
+  display: block;
+  inset: 0;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 7rem;
+  filter: drop-shadow(0 0 10px #090909) drop-shadow(0 0 10px #090909) drop-shadow(0 0 10px #090909);
+}
+
+.hero {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+.background {
+  word-break: break-all;
+  color: #114c21;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  line-height: 1.4;
+  font-weight: 300;
+  text-align: center;
+}
+
+.event-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 150px;
+  opacity: 0.6;
+}
+
+.event-info h2 {
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+
+h3 {
+  margin: 60px 20px 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 80px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 2;
+  margin: 0 150px;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  margin: 40px 0 10px;
+}
+
+@media (max-width: 1170px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  p {
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .event-info {
+    margin: 10px 100px;
+  }
+
+  .event-info h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    margin: 0 80px;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 820px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .event-info {
+    margin: 10px 50px;
+  }
+
+  .event-info h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0 50px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 760px) {
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0 20px
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 660px) {
+  h1 .separate {
+    display: block;
+  }
+
+  h1 span {
+    white-space: unset !important;
+  }
+}
+
+@media (max-width: 640px) {
+  h3 {
+    margin: 60px 140px 20px;
+  }
+
+  .event-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin: 80px 40px 21.248px;
+  }
+}
+
+@media (max-width: 490px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    margin: 60px 30px 20px;
+    font-size: 0.9rem;
+  }
+}
