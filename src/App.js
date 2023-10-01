@@ -31,7 +31,7 @@ function App() {
           <h2>?? teams</h2>
         </div>
 
-        <h3>Innoventures' largest tech event is back and better than ever.</h3>
+        <h3>Innoventures Education's largest tech event is back and better than ever.</h3>
 
         <img id="main-img" src="https://placehold.co/1200x200" style={{display: "block", margin: "20px auto 40px", borderRadius: "5px", width: "95%"}} alt="DI@Tech logo" />
 
