@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import getRandomString from './RandomString';
 import Judges from './Judges';
+import DIATech from './DI@Tech.mp4'
 
 import Nav from './Nav';
 
@@ -17,11 +18,11 @@ function App() {
 
   return (
     <div className="App">
-      <svg />
+      <div id="gradient" />
       <div className="hero">
         <Nav />
         <h1>DIA@Tech<span className="separate"><span style={{fontWeight: 400, whiteSpace: "pre"}}> is </span>back.</span></h1>
-        <div className="background">
+        <div id="background">
           {randomString}
         </div>
       </div>
@@ -34,7 +35,7 @@ function App() {
 
         <h3>Innoventures Education's largest tech club is back and bigger than ever.</h3>
 
-        <img id="main-img" src="https://placehold.co/1200x200" style={{display: "block", margin: "20px auto 40px", borderRadius: "5px", width: "95%"}} alt="DI@Tech logo" />
+        <video src={DIATech} autoPlay muted id="animation" />
 
         <h2>Theme</h2>
 

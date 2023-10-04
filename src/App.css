@@ -11,7 +11,7 @@ body {
   background-color: #090909;
 }
 
-svg {
+#gradient {
   position: absolute;
   background: radial-gradient(62.61% 62.61% at 95.23% 6.02%, #160E71 0%, rgba(19, 13, 92, 0.26) 54.71%, rgba(90, 35, 248, 0) 100%), linear-gradient(72.48deg, #EF516D 2.61%, rgba(106, 103, 227, 0) 56.18%), radial-gradient(45.23% 45.23% at 35.11% -11.02%, #7936AE 0%, rgba(121, 54, 174, 0) 100%), radial-gradient(94.51% 124.88% at 94.32% 94.43%, rgba(65, 244, 255, 0.78) 0%, rgba(131, 218, 255, 0.6552) 32.29%, rgba(99, 175, 240, 0.3978) 64.06%, rgba(43, 90, 211, 0) 100%), linear-gradient(313.04deg, #341D65 0.93%, #604AEA 125.68%); background-blend-mode: luminosity, multiply, color, lighten, screen, darken; filter: blur(200px) brightness(0.2);
   top: 0;
@@ -48,7 +48,7 @@ h1 {
   position: relative;
 }
 
-.background {
+#background {
   word-break: break-all;
   color: #1f6c33;
   font-size: 1.2rem;
@@ -56,6 +56,15 @@ h1 {
   line-height: 1.4;
   font-weight: 300;
   text-align: center;
+}
+
+#animation {
+  height: 200px;
+  width: 90%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  mix-blend-mode: lighten;
 }
 
 .event-info {
