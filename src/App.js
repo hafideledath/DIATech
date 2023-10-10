@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import getRandomString from './RandomString';
 import Judges from './Judges';
-import DIATech from './DI@Tech.mp4'
+import Date from './Date.mp4'
 
 import Nav from './Nav';
 
@@ -33,9 +33,9 @@ function App() {
           <h2>?? teams</h2>
         </div>
 
-        <h3>Innoventures Education's largest tech club is back and bigger than ever.</h3>
+        <h3>Innoventures Education's largest tech club is back and bigger than ever. Mark the date.</h3>
 
-        <video src={DIATech} autoPlay muted id="animation" />
+        <video src={Date} autoPlay muted id="animation" />
 
         <h2>Theme</h2>
 
