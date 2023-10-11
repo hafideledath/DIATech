@@ -59,9 +59,7 @@ h1 {
 }
 
 #animation {
-  width: 90%;
-  aspect-ratio: 100/17;
-  object-fit: cover;
+  width: 80%;
   margin: 0 auto;
   display: block;
   mix-blend-mode: lighten;

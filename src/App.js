@@ -33,7 +33,7 @@ function App() {
           <h2>?? teams</h2>
         </div>
 
-        <h3>Innoventures Education's largest tech club is back and bigger than ever. Mark the date.</h3>
+        <h3>Innoventures Education's largest tech club is back and bigger than ever. Mark the date:</h3>
 
         <video src={Date} autoPlay muted id="animation" />
 
