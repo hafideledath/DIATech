@@ -27,7 +27,7 @@ function App() {
         </div>
       </div>
       <div className="event-info">
-          <h2>June ??</h2>
+          <h2>June 25</h2>
           <h2>DIAEH PE Hall</h2>
           <h2>Theme</h2>
           <h2>?? teams</h2>
