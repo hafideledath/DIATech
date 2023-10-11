@@ -25,6 +25,10 @@ nav h6 {
     margin: 0;
 }
 
+nav h6 .year {
+    color: #5ED196; 
+}
+
 nav a {
     font-size: 1.3rem;
     color: inherit;
