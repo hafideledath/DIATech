@@ -1,0 +1,209 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  color: #e0eadd;
+  font-family: 'IBM Plex Mono', sans-serif;
+  background-color: #090909;
+}
+
+#gradient {
+  position: absolute;
+  background: radial-gradient(62.61% 62.61% at 95.23% 6.02%, #160E71 0%, rgba(19, 13, 92, 0.26) 54.71%, rgba(90, 35, 248, 0) 100%), linear-gradient(72.48deg, #EF516D 2.61%, rgba(106, 103, 227, 0) 56.18%), radial-gradient(45.23% 45.23% at 35.11% -11.02%, #7936AE 0%, rgba(121, 54, 174, 0) 100%), radial-gradient(94.51% 124.88% at 94.32% 94.43%, rgba(65, 244, 255, 0.78) 0%, rgba(131, 218, 255, 0.6552) 32.29%, rgba(99, 175, 240, 0.3978) 64.06%, rgba(43, 90, 211, 0) 100%), linear-gradient(313.04deg, #341D65 0.93%, #604AEA 125.68%); background-blend-mode: luminosity, multiply, color, lighten, screen, darken; filter: blur(200px) brightness(0.3);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.App {
+  height: 100%;
+}
+
+@keyframes background-pan {
+  from {background-position: 0% center;}
+  to {background-position: -200% center;}
+}
+
+h1 {
+  position: absolute;
+  width: min-content;
+  height: min-content;
+  display: block;
+  inset: 0;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 7rem;
+  filter: drop-shadow(0 0 10px #0909098B) drop-shadow(0 0 10px #0909098B) drop-shadow(0 0 10px #0909098B);
+}
+
+.hero {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+#background {
+  word-break: break-all;
+  color: #1f6c33;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  line-height: 1.4;
+  font-weight: 300;
+  text-align: center;
+}
+
+#animation {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  mix-blend-mode: lighten;
+}
+
+.event-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 150px;
+  opacity: 0.6;
+}
+
+.event-info h2 {
+  margin: 20px 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  color: #e0eadd;
+}
+
+h3 {
+  margin: 0 20px 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 80px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 2.5;
+  margin: 0 150px;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  margin: 40px 0 10px;
+}
+
+@media (max-width: 1170px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  p {
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .event-info {
+    margin: 10px 100px;
+  }
+
+  .event-info h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    margin: 0 80px;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 820px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .event-info {
+    margin: 10px 50px;
+  }
+
+  .event-info h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0 50px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 760px) {
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0 20px
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 660px) {
+  h1 .separate {
+    display: block;
+  }
+
+  h1 span {
+    white-space: unset !important;
+  }
+}
+
+@media (max-width: 640px) {
+  h3 {
+    margin: 60px 140px 20px;
+  }
+
+  .event-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin: 80px 40px 21.248px;
+  }
+}
+
+@media (max-width: 490px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    margin: 60px 30px 20px;
+    font-size: 0.9rem;
+  }
+}

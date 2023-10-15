@@ -30,6 +30,13 @@
     transition-delay: .2s;
 }
 
+.card img {
+    width: 300px;
+    max-height: 450px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
 .card :is(h4, h5) {
     margin: 0 10px 10px;
     line-height: 1;
@@ -73,6 +80,7 @@
 @media (max-width: 1170px) {
     .card img {
         width: 250px;
+        max-height: 350px;
     }
 }
 

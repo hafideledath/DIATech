@@ -1,0 +1,8 @@
+.event-details {
+    text-align: center;
+    width: min-content;
+}
+
+.event-details caption {
+    width: 100%;
+}
