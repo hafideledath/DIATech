@@ -23,7 +23,7 @@ function Events() {
             <h2>January</h2>
             <div className="event-details">
               <img src="https://placehold.co/300x300" alt="placeholder" />
-              <caption>DI@Byte</caption>
+              <caption>DI@BYTE</caption>
             </div>
           </div>
           <div className="event">
@@ -44,7 +44,7 @@ function Events() {
         <div className="final event">
             <h2>June</h2>
             <img src="https://placehold.co/300x100" alt="placeholder" />
-            <caption>DI@Tech</caption>
+            <caption>DI@TECH</caption>
         </div>
     </div>
   );
