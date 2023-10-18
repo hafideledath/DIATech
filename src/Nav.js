@@ -7,6 +7,7 @@ function Nav() {
         <div className="nav-links">
           <a href="/mission">Mission</a>
           <a href="/events">Events</a>
+          <a href="/contact">Contact</a>
         </div>
     </nav>
   );

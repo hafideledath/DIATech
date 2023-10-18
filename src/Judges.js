@@ -64,15 +64,15 @@ function Judges() {
                 </div>
 
                 <div className="card">
-                    <h4>Mauli Gandhi</h4>
-                    <h5>PR</h5>
-                    <img src={Mauli} alt="placeholder" />
-                </div>
-
-                <div className="card">
                     <h4>Eva Chacra</h4>
                     <h5>PR</h5>
                     <img src={Eva} alt="placeholder" />
+                </div>
+                
+                <div className="card">
+                    <h4>Divyana Maheshwari</h4>
+                    <h5>Events</h5>
+                    <img src={Divyana} alt="placeholder" />
                 </div>
 
                 <div className="card">
@@ -82,9 +82,9 @@ function Judges() {
                 </div>
 
                 <div className="card">
-                    <h4>Shivraj Maiti</h4>
+                    <h4>Maria Fatima</h4>
                     <h5>Admin</h5>
-                    <img src={Shivraj} alt="placeholder" />
+                    <img src={Maria} alt="placeholder" />
                 </div>
 
             </div>
@@ -106,21 +106,21 @@ function Judges() {
                 </div>
 
                 <div className="card">
-                    <h4>Soham Sharma</h4>
-                    <h5>Admin</h5>
-                    <img src={Soham} alt="placeholder" />
-                </div>
-
-                <div className="card">
-                    <h4>Sanika Bhatnagar</h4>
-                    <h5>Admin</h5>
-                    <img src={Sanika} alt="placeholder" />
-                </div>
-
-                <div className="card">
                     <h4>Levente Susztar</h4>
                     <h5>Admin</h5>
                     <img src={Levente} alt="placeholder" />
+                </div>
+
+                <div className="card">
+                    <h4>Asma Wazeer</h4>
+                    <h5>Primary Ambassador</h5>
+                    <img src={Asma} alt="placeholder"  style={{objectPosition: 'top'}} />
+                </div>
+
+                <div className="card">
+                    <h4>Eleanor Rego</h4>
+                    <h5>Media</h5>
+                    <img src={Eleanor} alt="placeholder" />
                 </div>
 
                 <div className="card">
@@ -130,9 +130,9 @@ function Judges() {
                 </div>
 
                 <div className="card">
-                    <h4>Maria Fatima</h4>
+                    <h4>Shivraj Maiti</h4>
                     <h5>Admin</h5>
-                    <img src={Maria} alt="placeholder" />
+                    <img src={Shivraj} alt="placeholder" />
                 </div>
 
             </div>
@@ -148,15 +148,15 @@ function Judges() {
                 </div>
 
                 <div className="card">
-                    <h4>Eleanor Rego</h4>
-                    <h5>Media</h5>
-                    <img src={Eleanor} alt="placeholder" />
-                </div>
-
-                <div className="card">
                     <h4>Wonbin Park</h4>
                     <h5>Media</h5>
                     <img src={Wonbin} alt="placeholder" />
+                </div>
+
+                <div className="card">
+                    <h4>Soham Sharma</h4>
+                    <h5>Admin</h5>
+                    <img src={Soham} alt="placeholder" />
                 </div>
 
                 <div className="card">
@@ -166,15 +166,15 @@ function Judges() {
                 </div>
 
                 <div className="card">
-                    <h4>Asma Wazeer</h4>
-                    <h5>Primary Ambassador</h5>
-                    <img src={Asma} alt="placeholder"  style={{objectPosition: 'top'}} />
+                    <h4>Sanika Bhatnagar</h4>
+                    <h5>Admin</h5>
+                    <img src={Sanika} alt="placeholder" />
                 </div>
 
                 <div className="card">
-                    <h4>Divyana Maheshwari</h4>
-                    <h5>Events</h5>
-                    <img src={Divyana} alt="placeholder" />
+                    <h4>Mauli Gandhi</h4>
+                    <h5>PR</h5>
+                    <img src={Mauli} alt="placeholder" />
                 </div>
 
                 <div className="card">
