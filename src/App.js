@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Home from './Home';
 import Mission from './Mission';
 import Events from './Events';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/mission' element={<Mission />} />
                 <Route path='/events' element={<Events />} />
+                <Route path='/contact' element={<Contact />} />
             </Routes>
         </Router>
     </div>

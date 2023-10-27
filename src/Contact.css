@@ -1,0 +1,51 @@
+#contact {
+    width: 850px;
+    margin: 0 auto;
+}
+
+#contact h3 {
+    text-align: left;
+    margin: 20px 50px 10px 5px;
+}
+
+#contact input, #message {
+    background-color: transparent;
+    border: 0.5px solid #e0eadd;
+    color: #e0eadd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#contact input {
+    height: 50px;
+}
+
+#message {
+    resize: none;
+}
+
+.email-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#contact .email-header input {
+    width: 415px;
+}
+
+#contact input[type=submit] {
+    margin-top: 20px;
+    opacity: 0.8;
+    font-weight: 800;
+    transition-duration: .2s;
+}
+
+#contact input[type=submit]:hover {
+    opacity: 1;
+}

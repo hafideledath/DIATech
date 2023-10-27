@@ -8,6 +8,7 @@
 }
 
 .card-column {
+    order: var(--rank);
     margin-top: 180px;
     display: flex;
     flex-direction: column;
@@ -15,17 +16,18 @@
 }
 
 .card-column:first-child {
+    --rank: 1;
     transform: rotateY(2deg);
 }
 
-.card-column:nth-child(2n) {
-    margin-top: 80px;
-}
-
 .card-column:nth-child(2) {
+    --rank: 2;
+    margin-top: 80px;
     text-align: center;
 }
+
 .card-column:nth-child(3) {
+    --rank: 3;
     text-align: right;
     transform: rotateY(-2deg);
 }
@@ -112,12 +114,24 @@
 @media (max-width: 770px) {
     .card-columns {
         flex-direction: column;
+        width: 100%;
         margin-top: 40px;
     }
 
     .card-column {
         flex-direction: row;
         margin-top: 20px !important;
+        transform: rotateY(0) !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-column:first-child {
+        --rank: 2;
+    }
+
+    .card-column:nth-child(2) {
+        --rank: 1;
     }
 
     .card :is(h4, h5) {
@@ -126,10 +140,6 @@
 }
 
 @media (max-width: 570px) {
-    .card-column:nth-child(2n - 1) {
-        display: none;
-    }
-
     .card-column {
         gap: 30px;
     }
@@ -138,5 +148,7 @@
 @media (max-width: 500px) {
     .card-column {
         flex-direction: column;
+        width: min-content;
+        margin: 0 auto;
     }
 }
