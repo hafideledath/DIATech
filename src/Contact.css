@@ -8,7 +8,7 @@
     margin: 20px 50px 10px 5px;
 }
 
-#contact input, #message {
+#contact :is(input, button), #message {
     background-color: transparent;
     border: 0.5px solid #e0eadd;
     color: #e0eadd;
@@ -21,7 +21,7 @@
     font-family: 'IBM Plex Mono', monospace;
 }
 
-#contact input {
+#contact :is(input, button) {
     height: 50px;
 }
 
@@ -39,13 +39,13 @@
     width: 415px;
 }
 
-#contact input[type=submit] {
+#contact button {
     margin-top: 20px;
     opacity: 0.8;
     font-weight: 800;
     transition-duration: .2s;
 }
 
-#contact input[type=submit]:hover {
+#contact button:hover {
     opacity: 1;
 }
