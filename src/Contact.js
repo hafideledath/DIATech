@@ -10,12 +10,13 @@ function Contact() {
 
       button.type = "button";
 
-      emailjs.sendForm('service_v2epud4', 'template_y8fdsst', document.getElementById("contact"), 'biSgoAeWJ_LQGYHd8')
+      const form = document.querySelector("#contact");
+
+      emailjs.sendForm('service_v2epud4', 'template_y8fdsst', form, 'biSgoAeWJ_LQGYHd8')
       .then(function(response) {
-         console.log('SUCCESS!', response.status, response.text);
-         window.location.reload();
+        form.innerHTML = "<p style='margin: 0 auto; width: fit-content;'>Your email has been sent. Please be patient as we work to get back to you.</p>";
       }, function(error) {
-         console.log('FAILED...', error);
+        form.innerHTML = "<p style='margin: 0 auto; width: fit-content;'>Your email failed to deliver. Please try again after a while.</p>";
       });
     }
 
