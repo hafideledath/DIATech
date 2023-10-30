@@ -49,3 +49,37 @@
 #contact button:hover {
     opacity: 1;
 }
+
+@media (max-width: 870px) {
+    #contact {
+        width: 600px;
+    }
+
+    #contact .email-header input {
+        width: 290px;
+    }
+}
+
+@media (max-width: 620px) {
+    #contact {
+        width: 400px;
+    }
+
+    #contact .email-header input {
+        width: 190px;
+    }
+}
+
+@media (max-width: 420px) {
+    #contact .email-header {
+        display: block;
+    }
+
+    #message {
+        height: 175px;
+    }
+
+    #contact .email-header input, #contact {
+        width: 300px !important;
+    }
+}
