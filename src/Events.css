@@ -1,8 +1,12 @@
 .event-details {
-    text-align: center;
-    width: min-content;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .event-details caption {
-    width: 100%;
+    width: 300px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 1.7rem;
 }

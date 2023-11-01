@@ -8,35 +8,35 @@ function Events() {
           <div className="event">
             <h2>October</h2>
             <div className="event-details">
-              <img src="https://placehold.co/300x300" alt="placeholder" />
+              <img src="https://placehold.co/200x300" alt="placeholder" />
               <caption>mBot Robotics Workshop</caption>
             </div>
           </div>
           <div className="event">
             <h2>November</h2>
             <div className="event-details">
-              <img src="https://placehold.co/300x300" alt="placeholder" />
+              <img src="https://placehold.co/200x300" alt="placeholder" />
               <caption>Robotics University Visit</caption>
             </div>
           </div>
           <div className="event">
             <h2>January</h2>
             <div className="event-details">
-              <img src="https://placehold.co/300x300" alt="placeholder" />
+              <img src="https://placehold.co/200x300" alt="placeholder" />
               <caption>DI@BYTE</caption>
             </div>
           </div>
           <div className="event">
             <h2>February</h2>
             <div className="event-details">
-              <img src="https://placehold.co/300x300" alt="placeholder" />
+              <img src="https://placehold.co/200x300" alt="placeholder" />
               <caption>Hour of Code</caption>
             </div>
           </div>
           <div className="event">
             <h2>April</h2>
             <div className="event-details">
-              <img src="https://placehold.co/300x300" alt="placeholder" />
+              <img src="https://placehold.co/200x300" alt="placeholder" />
               <caption>Innovents Robotics</caption>
             </div>
           </div>

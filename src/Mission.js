@@ -2,7 +2,7 @@ function Mission() {
   return (
     <div className="Mission">
         <h2 style={{marginTop: '120px'}}>Our Mission</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil exercitationem facere rem ullam doloremque voluptatem cumque obcaecati praesentium architecto? Natus enim inventore explicabo animi autem doloremque excepturi consequatur aliquam veritatis accusamus nulla porro, dolor, velit iste debitis modi optio consectetur sunt dolorem, repellat error! Fuga saepe voluptate consequuntur quis soluta.</p>
+        <p>The first DI@TECH was hosted in a newly founded DIA campus, on June of 2007– 16 academic years ago. Ever since then, attendance to the event has increased significantly, but we have always stayed true to our mission: to promote students to utilize STEM to improve society. DI@TECH is far greater than an DIA competition, or hackathon. It's an annual inter-school event that celebrates how far we have come by giving DIA students an opportunity to showcase innovative technology.</p>
     </div>
   );
 }
