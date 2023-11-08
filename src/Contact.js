@@ -37,7 +37,7 @@ function Contact() {
             <h3>Subject</h3>
             <input type="text" name="subject" required />
             <h3>Message</h3>
-            <textarea name="message" id="message" rows="10"></textarea>
+            <textarea name="message" id="message" rows="5"></textarea>
 
             <button type="submit" id="submit">Submit</button>
           </form>

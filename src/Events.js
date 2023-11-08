@@ -46,10 +46,12 @@ function Events() {
           </div>
         </div>
         <h2>June</h2>
-        <div className="final event">
-          <caption>DI@TECH</caption>
-            <img src="https://placehold.co/300x100" alt="placeholder" />
-        </div>
+        <div className="event">
+          <div className="event-details">
+            <caption>DI@TECH</caption>
+              <img src="https://placehold.co/300x100" alt="placeholder" />
+                    </div>
+          </div>
     </div>
   );
 }
