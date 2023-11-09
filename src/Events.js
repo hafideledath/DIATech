@@ -1,6 +1,8 @@
 import mBotRobotics from './events/mbot_robotics.webp';
 import primaryRobotics from './events/primary_robotics.webp';
+import diabyte from './events/diabyte.webp';
 import hourOfCode from './events/hour_of_code.webp';
+import innoventsRobotics from './events/innovents_robotics.webp';
 
 import './Events.css';
 
@@ -27,7 +29,7 @@ function Events() {
           <div className="event">
             <div className="event-details">
               <caption>DI@BYTE</caption>
-              <img src="https://placehold.co/200x300" alt="placeholder" />
+              <img src={diabyte} alt="placeholder" />
             </div>
           </div>
           <h2>February</h2>
@@ -41,7 +43,7 @@ function Events() {
           <div className="event">
             <div className="event-details">
               <caption>Innovents Robotics</caption>
-              <img src="https://placehold.co/200x300" alt="placeholder" />
+              <img src={innoventsRobotics} alt="placeholder" />
             </div>
           </div>
         </div>
