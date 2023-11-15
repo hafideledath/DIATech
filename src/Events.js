@@ -55,6 +55,8 @@ function Events() {
               <img src={diatech} alt="placeholder" />
                     </div>
           </div>
+
+          <footer>©2023 DI@Tech</footer>
     </div>
   );
 }

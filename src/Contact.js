@@ -41,6 +41,8 @@ function Contact() {
 
             <button type="submit" id="submit">Submit</button>
           </form>
+
+          <footer style={{marginTop: "140px"}}>©2023 DI@Tech</footer>
       </div>
     );
   }
