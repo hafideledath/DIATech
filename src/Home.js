@@ -25,17 +25,12 @@ function Home() {
       <div className="event-info">
           <h2>June 25</h2>
           <h2>DIAEH PE Hall</h2>
-          <h2>Theme</h2>
-          <h2>?? teams</h2>
+          <h2>Sustainability and Innovation</h2>
         </div>
 
         <h3>Innoventures Education's largest tech club is back and bigger than ever. Mark the date:</h3>
 
         <video src={Date} autoPlay muted id="animation" />
-
-        <h2>Theme</h2>
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio error reprehenderit commodi obcaecati ipsam assumenda vero corporis vel quia necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deserunt possimus commodi odio nisi dolore dolor eum dignissimos, voluptatem fugit.</p>
 
         <h2>Meet the Team</h2>
 

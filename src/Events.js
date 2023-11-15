@@ -3,6 +3,7 @@ import primaryRobotics from './events/primary_robotics.webp';
 import diabyte from './events/diabyte.webp';
 import hourOfCode from './events/hour_of_code.webp';
 import innoventsRobotics from './events/innovents_robotics.webp';
+import diatech from './events/diatech.webp';
 
 import './Events.css';
 
@@ -51,7 +52,7 @@ function Events() {
         <div className="event">
           <div className="event-details">
             <caption>DI@TECH</caption>
-              <img src="https://placehold.co/300x100" alt="placeholder" />
+              <img src={diatech} alt="placeholder" />
                     </div>
           </div>
     </div>
