@@ -7,7 +7,7 @@ function Gallery() {
   return (
     <div className="Gallery">
       <main>
-        <h2 style={{marginTop: '120px'}}>Over 16 years of fun</h2>
+        <h2 style={{marginTop: '120px'}}>Gallery</h2>
         <picture>
           <source media="(min-width: 821px)" srcset={bentoLarge} alt='gallery' id='gallery' />
           <img src={bentoSmall} alt="gallery" id='gallery' />
