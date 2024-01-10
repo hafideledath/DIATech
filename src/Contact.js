@@ -22,27 +22,28 @@ function Contact() {
 
     return (
       <div className="Contact">
-          <h2 style={{marginTop: '120px'}}>Contact Us</h2>
-          <form id="contact" onSubmit={submit}>
-            <div className="email-header">
-              <div className="name-container">
-                <h3>Name</h3>
-                <input type="text" name="from_name" required />
+          <main>
+            <h2 style={{marginTop: '120px'}}>Contact Us</h2>
+            <form id="contact" onSubmit={submit}>
+              <div className="email-header">
+                <div className="name-container">
+                  <h3>Name</h3>
+                  <input type="text" name="from_name" required />
+                </div>
+                <div className="email-container">
+                  <h3>Email</h3>
+                  <input type="email" name="reply_to" required />
+                </div>
               </div>
-              <div className="email-container">
-                <h3>Email</h3>
-                <input type="email" name="reply_to" required />
-              </div>
-            </div>
-            <h3>Subject</h3>
-            <input type="text" name="subject" required />
-            <h3>Message</h3>
-            <textarea name="message" id="message" rows="5"></textarea>
+              <h3>Subject</h3>
+              <input type="text" name="subject" required />
+              <h3>Message</h3>
+              <textarea name="message" id="message" rows="5"></textarea>
+              <button type="submit" id="submit">Submit</button>
+            </form>
+          </main>
 
-            <button type="submit" id="submit">Submit</button>
-          </form>
-
-          <footer style={{marginTop: "140px"}}>©2023 DI@Tech</footer>
+          <footer>©2023 DI@Tech</footer>
       </div>
     );
   }

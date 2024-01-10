@@ -1,0 +1,23 @@
+#gallery {
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 1030px) {
+    #gallery {
+        width: 800px;
+    }
+}
+
+@media (max-width: 820px) {
+    #gallery {
+        width: 500px;
+    }
+}
+
+@media (max-width: 520px) {
+    #gallery {
+        width: 300px;
+    }
+}

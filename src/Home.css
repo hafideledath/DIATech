@@ -102,8 +102,16 @@ p {
 }
 
 footer {
+  margin-top: auto;
   text-align: center;
   margin: 40px 0 10px;
+}
+
+.App > div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (max-width: 1170px) {
