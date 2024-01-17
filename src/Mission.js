@@ -1,9 +1,11 @@
+import Judges from "./Judges";
+
 function Mission() {
   return (
     <div className="Mission">
       <main>
-        <h2 style={{marginTop: '120px'}}>Our Mission</h2>
-        <p>The first DI@TECH was hosted on a newly founded DIA campus, during the June of 2007– 16 academic years ago. Ever since then, attendance to the event has increased significantly, yet we've always stayed true to our mission: to promote students to utilize STEM to improve society. DI@TECH is far greater than an DIA competition, or hackathon. It's an annual inter-school event that celebrates how far we have come by giving DIA students an opportunity to showcase innovative technology.</p>
+        <h2 style={{marginTop: '120px'}}>Meet the Team</h2>
+        <Judges />
       </main>
       <footer>©2023 DI@Tech</footer>
     </div>

@@ -35,8 +35,6 @@ function Home() {
           <h2>Hear From Last Year's Winners</h2>
           <h3>Mayankh Agarwal | DI@Tech 2023 Year 10 Winning Team Leader</h3>
           <p>DI@TECH provided me an invaluable opportunity to socialize and understand other participants unique perspective on a common problem. Not only did this experience deepen my understaning about issues prevalent in urban cities (the theme for last year being smart cities) but also underscored the principal that fruits of your labour and dedication are endearing and rewarding.</p>
-          <h2>Meet the Team</h2>
-          <Judges />
       </main>
 
         <footer>©2023 DI@Tech</footer>
