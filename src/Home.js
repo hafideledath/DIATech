@@ -30,6 +30,7 @@ function Home() {
             <h2>DIAEH PE Hall</h2>
             <h2>Sustainability and Innovation</h2>
           </div>
+          <hr className='separation' />
           <h3>Innoventures Education's largest tech club is back and bigger than ever. Mark the date:</h3>
           <video src={Date} autoPlay muted id="animation" />
           <h2>Hear From Last Year's Winners</h2>

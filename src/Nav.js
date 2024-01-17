@@ -7,7 +7,7 @@ function Nav() {
     <nav>
         <a href="/" id="logo"><img src={logo} alt="hi" /></a>
         <div className="nav-links">
-          <a href="/mission">Mission</a>
+          <a href="/team">Team</a>
           <a href="/gallery">Gallery</a>
           <a href="/contact">Contact</a>
         </div>

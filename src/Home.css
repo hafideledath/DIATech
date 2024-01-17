@@ -68,8 +68,14 @@ h1 {
 .event-info {
   display: flex;
   justify-content: space-between;
-  margin: 10px 150px;
+  margin: 10px 150px 0;
   opacity: 0.6;
+}
+
+.separation {
+  margin: 20px 50px 40px;
+  opacity: 0.6;
+  border-style: dashed;
 }
 
 .event-info h2 {
