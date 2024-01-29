@@ -13,7 +13,7 @@ function Gallery() {
           <img src={bentoSmall} alt="gallery" id='gallery' />
         </picture>
       </main>
-      <footer>©2023 DI@Tech</footer>
+      <footer>©2024 DI@Tech</footer>
     </div>
   );
 }

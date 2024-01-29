@@ -38,7 +38,7 @@ function Home() {
           <p className='winners-message'>DI@TECH provided me an invaluable opportunity to socialize and understand other participants unique perspective on a common problem. Not only did this experience deepen my understaning about issues prevalent in urban cities (the theme for last year being smart cities) but also underscored the principal that fruits of your labour and dedication are endearing and rewarding.</p>
       </main>
 
-        <footer>©2023 DI@Tech</footer>
+        <footer>©2024 DI@Tech</footer>
     </div>
   );
 }
